@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>twitter clone</title>
+</head>
+<body class=" bg-white dark:bg-dim-900">
+    <!-- container -->
+    <div class="container mx-auto h-screen flex xl:max-w-[1200px]">
+        <!-- left -->
+        <div class="xl:w-1/5 w-20 h-full flex flex-col xl:pr-4">
+            <a href="" class="link-active my-2">
+                <i class="fa-brands fa-twitter text-4xl"></i>
+            </a>
+            <nav class="mt-5">
+                <a href="" class="link-active mb-8 ">
+                    <i class="fa-solid fa-house text-xl"></i>
+                    <span class="icon">Home</span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-solid fa-hashtag text-xl"></i>
+                    <span class="icon">Explore</span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-solid fa-bell text-xl"></i>
+                    <span class="icon">Notifications</span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-solid fa-envelope  text-xl"></i>
+                    <span class="icon">Message</span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-solid fa-bookmark  text-xl"></i>
+                    <span class="icon">Bookmarks</span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-solid fa-list-ul text-xl"></i>
+                    <span class="icon">Lists</span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-solid fa-user  text-xl"></i>
+                    <span class="icon">Profile</span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-solid fa-ellipsis  text-xl"></i>
+                    <span class="icon">More</span>
+                </a>
+            </nav>
+            <!-- button  -->
+            <a href="" class="mx-auto w-11 h-11 xl:w-full flex justify-center items-center rounded-full bg-blue-400 text-white font-bold">
+                <i class="fa-solid fa-feather text-xl block xl:hidden "></i>
+                <span class="icon xl:ml-0">Tweet</span>
+            </a>
+            <!-- user  -->
+            <div class="w-14 xl:w-full mx-auto mt-auto flex justify-between items-center mb-2 rounded-full p-2 cursor-pointer">
+
+                <img class="rounded-full w-14 h-10" src="https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/351318947_1336566056895532_5595481538057858967_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=OGW2rzGZlrUAX-cge1j&_nc_ht=scontent-hbe1-1.xx&oh=00_AfCwbHAUaIDBTcaYWyrWdc6EuEuxbVPRR29Lk0LlQjRvlQ&oe=64FD2236" alt="">
+
+                <div class="hidden ml-1 xl:flex flex-col">
+                    <h3 class="text-gray-800 dark:text-white font-bold">3mr1_9</h3>
+                    <a class="text-gray-800 dark:text-white text-sm" target="_blank" href="elsayedamr503@gmail.com">elsayedamr503@gmail.com</a>
+                </div>
+                <i class="fa-solid fa-chevron-down text-xs hidden xl:flex items-center xl:ml-1  text-gray-800 dark:text-white">
+                </i>
+            </div>
+
+        </div>
+
+        <!-- middle -->
+        <div class="w-full xl:w-1/2 h-screen overflow-y-auto">
+            <!-- sticky header  -->
+            <div class="flex items-center justify-between border px-4 py-3 sticky top-0 bg-white dark:bg-dim-900 border-gray-200 dark:border-gray-700">
+                <h4 class="text-gray-800 dark:text-gray-100 font-bold">Home</h4>
+                <i class="fa-brands fa-twitter  text-lg  text-blue-400"></i>
+            </div>
+            <!-- tweet box -->
+            <div class="border pb-3 border-gray-200 dark:border-dim-200 ">
+                <div class="flex p-4">
+                    <img class="rounded-full w-10 h-10" src="https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/351318947_1336566056895532_5595481538057858967_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=OGW2rzGZlrUAX-cge1j&_nc_ht=scontent-hbe1-1.xx&oh=00_AfCwbHAUaIDBTcaYWyrWdc6EuEuxbVPRR29Lk0LlQjRvlQ&oe=64FD2236" alt="">
+                    <textarea class="p-2 ml-2 dark:text-white text-gray-900 w-full h-16 resize-none bg-transparent focus:outline-none caret-blue-400" placeholder="What's Happening?"></textarea>
+                </div>
+                <div class="flex w-full p-4">
+                    <a class="text-blue-400 rounded-full p-2" href="">
+                        <i class="fa-solid fa-image text-lg"></i>
+                    </a>
+                    <a class="text-blue-400 rounded-full p-2" href="">
+                        <i class="fa-brands fa-git text-lg"></i>
+                    </a>
+                    <a class="text-blue-400 rounded-full p-2" href="">
+                        <i class="fa-solid fa-square-poll-horizontal text-lg"></i>
+                    </a>
+                    <a class="text-blue-400 rounded-full p-2" href="">
+                        <i class="fa-solid fa-face-smile text-lg"></i>
+                    </a>
+                    <a class="text-blue-400 rounded-full p-2" href="">
+                        <i class="fa-solid fa-business-time text-lg"></i>
+                    </a>
+                    <a class="bg-blue-400 text-white rounded-full px-4 ml-auto mr-1 flex items-center font-bold"    href="">
+                        Tweet
+                    </a>
+                </div>
+            </div>
+            <!-- SHOW TWEETS  -->
+            <div class="text-center py-4 bg-white dark:bg-dim-900 border border-gray-200 dark:border-dim-200 cursor-pointer text-blue-400 text-sm">Show 9 tweets</div>
+            <!-- tweet  -->
+            <div class="border border-gray-200 dark:border-dim-200 cursor-pointer pb-4 ">
+                <div class="flex p-4 pb-0">
+                    <img class="rounded-full w-9 h-9" src="https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/351318947_1336566056895532_5595481538057858967_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=OGW2rzGZlrUAX-cge1j&_nc_ht=scontent-hbe1-1.xx&oh=00_AfCwbHAUaIDBTcaYWyrWdc6EuEuxbVPRR29Lk0LlQjRvlQ&oe=64FD2236" alt="">
+                    <p class="ml-3 flex flex-shrink-0 items-center font-medium text-gray-800 dark:text-white">AmrE503<span class="ml-2 text-sm leading-5 font-medium text-gray-400">3mr_1_9 . sep-1</span></p>
+                </div>
+                <div class="pl-8 xl:pl-16 pr-4">
+                    <p class="w-auto mt-4 text-gray-700 dark:text-white ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dicta sit sapiente magnam quasi?<br>
+                    <br>
+                    Deleniti voluptates sint placeat odit maiores beatae quia distinctio ducimus nihil 
+                    <a class="text-blue-400 font-medium" href="">atque</a> <br>
+                    <br> eaque, enim eos voluptatibus.</p>
+                    <img class="rounded-3xl border border-gray-600 my-3 w-full mr-2" src="https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/320889911_639432974600345_9129424938139870565_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=1b51e3&_nc_ohc=oPiqDtctH0YAX9pyKqY&_nc_ht=scontent-hbe1-1.xx&oh=00_AfDedGyearxztxdKEfcSaIpwMrhlXiy8ZVDZ0dxUZKulxw&oe=64FDB62E" alt="">
+                    <div class="flex justify-between w-full items-center px-1">
+                        <div class="flex items-center dark:text-white text-sm text-gray-400 ml-1 dark:hover:text-blue-400 transition duration-200 ease-out hover:text-blue-400">
+                            <i class="fa-solid fa-comment mr-2 text-lg"></i>
+                            <p>12.3k</p>
+                        </div>
+                        <div class="flex items-center dark:text-white text-sm text-gray-400 ml-1 dark:hover:text-blue-400 transition duration-200 ease-out hover:text-blue-400">
+                            <i class="fa-solid fa-retweet mr-2 text-lg"></i>
+                            <p>20k</p>
+                        </div>
+                        <div class="flex items-center dark:text-white text-sm text-gray-400 ml-1 dark:hover:text-red-600 transition duration-200 ease-out hover:text-red-600">
+                            <i class="fa-solid fa-heart mr-2 text-lg"></i>
+                            <p>22.3k</p>
+                        </div>
+                        <div class="flex items-center dark:text-white text-sm text-gray-400 ml-1 dark:hover:text-blue-400 transition duration-200 ease-out hover:text-blue-400">
+                            <i class="fa-solid fa-share mr-2 text-lg"></i>
+                            <p>10.8k</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- button -->
+            <div class="border border-gray-200 dark:border-dim-200 text-center bg-gray-50 dark:bg-dim-300 py-4">
+                <h4 class="mb-4 font-bold text-gray-900 dark:text-white text-xl">Customize your view</h4>
+                <p class="mx-4 text-sm text-gray-400">Lorem ipsum dolor doloribus labore voluptas tenetur optio eligendi quod, veniam vero voluptatibus molestiae!</p>
+                <button id="btn" class="hover:bg-blue-700 mt-4 bg-blue-500 px-3 py-2 text-white font-medium rounded-full transitio duration-300 ease-in-out hover:px-4">
+                    <i class="fa-solid fa-cloud-moon block xl:hidden text-lg"></i>
+                    <p class="hidden xl:block">Toggle dark mode</p></button>
+            </div>
+            <div class="p-4 border border-gray-200 dark:border-gray-700">
+                <svg class="w-8 h-8 mx-auto animate-spin">
+                    <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="stroke: rgb(29, 161, 242); opacity: 0.2">
+                    </circle>
+                    <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="
+                            stroke: rgb(29, 161, 242);
+                            stroke-dasharray: 80;
+                            stroke-dashoffset: 60;">
+                    </circle>
+                </svg>
+            </div>
+        </div>
+        
+        <!-- right -->
+        <div class="hidden w-[30%] xl:block ">
+            <!-- search  -->
+            <div class="relative w-full m-2">
+                <i class="fa-solid fa-magnifying-glass  text-gray-600 absolute left-4 top-1/2 -translate-y-1/2	"></i>
+                <input type="search" class="w-full bg-gray-200 dark:bg-dim-400 border-gray-200 dark:border-dim-400 rounded-full text-gray-100 focus:outline-none font-normal h-9 pl-12 caret-blue-400" placeholder="Search twitter">
+            </div>
+            <!-- hashtag  -->
+            <div class="bg-gray-50 rounded-xl dark:bg-dim-700 ml-2 w-full">
+                <h3 class="p-3 font-medium rounded-xl dark:text-white border-b border-gray-200 dark:border-dim-200 text-gray-900 text-xl" >what's happening...</h3>
+
+                <div class="border-b border-gray-200 dark:border-dim-200 p-3 dark:text-gray-400">
+                    <h4 class="font-bold text-gray-800 dark:text-white">#Leo_Messi</h4>
+                    <p class="text-xs text-gray-400">1b tweets</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-dim-200 p-3 dark:text-gray-400">
+                    <h4 class="font-bold text-gray-800 dark:text-white">#palestine</h4>
+                    <p class="text-xs text-gray-400">1.7m tweets</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-dim-200 p-3 dark:text-gray-400">
+                    <h4 class="font-bold text-gray-800 dark:text-white">#Ballon_do`or</h4>
+                    <p class="text-xs text-gray-400">1.5m tweets</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-dim-200 p-3 dark:text-gray-400">
+                    <h4 class="font-bold text-gray-800 dark:text-white">#Alahly</h4>
+                    <p class="text-xs text-gray-400">500k tweets</p>
+                </div>
+                <div class=" p-3 dark:text-gray-400">
+                    <h4 class="font-bold text-gray-800 dark:text-white">#صياحو_تحدى</h4>
+                    <p class="text-xs text-gray-400">150k tweets</p>
+                </div>
+                <div class="text-blue-400 pb-2 px-3 cursor-pointer">Show more</div>
+            </div>
+            <!-- followers -->
+            <div class="bg-gray-50 rounded-xl dark:bg-dim-700 ml-2 mt-2 w-full">
+                <h3 class="p-3 font-medium rounded-xl dark:text-white border-b border-gray-200 dark:border-dim-200 text-gray-900 text-xl" >Who's follow</h3>
+                <div class="flex items-center  my-2 p-2 border-b border-gray-200 dark:border-dim-200">
+                    <img src="https://scontent.fcai19-5.fna.fbcdn.net/v/t1.6435-9/199385759_345470910277839_3988273979229903886_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=c9T5wPggtBkAX8apHSo&_nc_ht=scontent.fcai19-5.fna&oh=00_AfBdS9s1xrbfLJ5uhrE_4pQhKEbgrqIKBcxnr2HbxaqrbA&oe=6522780F" class="cursor-pointer w-10 h-10 rounded-full" alt="">
+                    <div class="ml-3">
+                        <h3 class="text-gray-900 dark:text-white font-medium cursor-pointer">L.messi</h3>
+                        <p class="text-gray-900 dark:text-gray-400 text-sm">LeoMessi@mail.com</p>
+                    </div>
+                    <button class="ml-auto text-blue-400 border border-blue-400 px-3 rounded-full">Follow</button>
+                </div>
+                <div class="flex items-center  my-2 p-2 border-b border-gray-200 dark:border-dim-200">
+                    <img src="https://scontent.fcai19-5.fna.fbcdn.net/v/t39.30808-6/357476542_817720709716836_1383173613203364977_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=TURtT6d6RvcAX8yI4Hl&_nc_ht=scontent.fcai19-5.fna&oh=00_AfA3noxlGWVfckcCpQqaipfct4HCLjNJKv8L0cgXhU3Xdg&oe=64FF94BB" class="cursor-pointer w-10 h-10 rounded-full" alt="">
+                    <div class="ml-3">
+                        <h3 class="text-gray-900 dark:text-white font-medium cursor-pointer">TReiKa_22</h3>
+                        <p class="text-gray-900 dark:text-gray-400 text-sm">MO.treika.com</p>
+                    </div>
+                    <button class="ml-auto text-blue-400 border border-blue-400 px-3 rounded-full">Follow</button>
+                </div>
+                <div class="flex items-center  my-2 p-2 border-b border-gray-200 dark:border-dim-200">
+                    <img src="https://scontent.fcai19-5.fna.fbcdn.net/v/t1.6435-1/190108336_322648402555040_2100790391455013605_n.jpg?stp=dst-jpg_p240x240&_nc_cat=1&ccb=1-7&_nc_sid=c6021c&_nc_ohc=-DG-O0U9jygAX_Uho9V&_nc_ht=scontent.fcai19-5.fna&oh=00_AfC_NVlYOraIiP3yWgQPj8bJVjQ04KadsjzPO1KjKAGY0w&oe=652270B6" class="cursor-pointer w-10 h-10 rounded-full" alt="">
+                    <div class="ml-3">
+                        <h3 class="text-gray-900 dark:text-white font-medium cursor-pointer">CR7</h3>
+                        <p class="text-gray-900 dark:text-gray-400 text-sm">Ronaldo@mail.com</p>
+                    </div>
+                    <button class="ml-auto text-blue-400 border border-blue-400 px-3 rounded-full">Follow</button>
+                </div>
+                <div class="flex items-start  my-2 px-2 py-3 border-b border-gray-200 dark:border-dim-200 animate-pulse">
+                    <div class="w-10 h-10 rounded-full bg-dim-200 dark:bg-slate-400"></div>
+                    <div class="ml-3 ">
+                        <div class="w-[250px] h-4 bg-dim-200 dark:bg-gray-400 rounded-md"></div>
+                        <div class="w-[200px] h-4 bg-dim-200 dark:bg-gray-400 rounded-md my-2"></div>
+                        <div class="w-[150px] h-4 bg-dim-200 dark:bg-gray-400 rounded-md"></div>
+                    </div>
+                </div>
+                <div class="text-blue-400 p-2 cursor-pointer">Show More...</div>
+            </div>
+        </div>
+
+        <!-- js  -->
+        <script>
+            document.getElementById("btn").addEventListener('click' ,()=>{
+                document.querySelector('html').classList.toggle('dark');
+            })
+        </script>
+    </div>
+</body>
+</html>
